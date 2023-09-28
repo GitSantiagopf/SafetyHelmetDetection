@@ -1,19 +1,16 @@
-Safetyhelmetdetection
+Safety Helmet Detection
 ==============================
 
-A short description of the project.
+The Safety Helmet Detection project is a computer vision application designed to enhance workplace safety by detecting the improper use of safety helmets in industrial or construction settings. It utilizes the YOLOv8m (You Only Look Once version 8 medium) deep learning model for object detection and is built to prevent workplace accidents caused by employees not wearing safety helmets.
+
+This project is powered by a meticulously labeled dataset obtained from Roboflow, ensuring accurate detection of safety helmets and potential violations in real-world scenarios.
 
 Project Organization
 ------------
 
     ├── LICENSE
-    ├── data
-    │   ├── Predicst       <- Data for predicts.
-    │   ├── test        <- Data for test model.
-    │   ├── train      <- Data for train model.
-    │   └── valid            <- Data for valid model.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── data          <- Add your data for train.
+    │   
     │
     ├── models             <- Trained and serialized models and model predictions.
     │
@@ -21,35 +18,6 @@ Project Organization
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
-
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>

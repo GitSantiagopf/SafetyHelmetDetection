@@ -1,0 +1,13 @@
+names:
+- con casco
+- sin casco
+nc: 2
+roboflow:
+  license: MIT
+  project: cascos-xtsep
+  url: https://universe.roboflow.com/universidad-nacional-de-colombia-altwu/cascos-xtsep/dataset/3
+  version: 3
+  workspace: universidad-nacional-de-colombia-altwu
+test: test/images
+train: train/images
+val: valid/images
